@@ -1,0 +1,57 @@
+body{
+  place-content: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background: hwb(234 0% 67%);
+  margin: 0;
+  display: grid;
+  place-items: center;
+  color: white;
+  grid-auto-columns: max-content;
+}
+a{
+  color: white;
+}
+a:hover{
+  color: #007bff;
+  cursor: pointer;
+}
+h1 {
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+form {
+  max-width: 300px;
+  margin: 0 auto;
+}
+label {
+  margin-top: 20px;
+  display: block;
+  margin-bottom: 5px;
+}
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  
+}
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #0056b3;
+}
+p{
+  font-size: medium;
+}
+select{
+  font-size: medium;
+  background: hwb(234 0% 67%);
+  color: white;
+  padding: 5px;
+}
